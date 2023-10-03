@@ -24,4 +24,6 @@ git add *
 git commit -m "changing words"
 git push
 
+yay
+
 
