@@ -2,13 +2,52 @@
 <html lang="en">
 
 <head>
-    <title>Make-A-Meeting</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Make-A-Meeting</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+
+    .meetingBox{
+      height: 500px;
+      width: 500px;
+      border: 5px solid red;
+    }
+
+    .meetingTitle{
+      color:blue;
+    }
+
+    .slotBox{
+      height: 100px;
+      width: 100px;
+       border: 5px solid green;
+       display:inline-block;
+    }
+  </style>
 </head>
 
 <body>
+
+  <div class="meetingBox">
+    <div class="meetingtitle">
   Make a Meeting Body Builder.
+    </div>
+     <div class="slotBox">
+        date: monday at 5
+     </div>
+     <div class="slotBox">
+      date: tuesday at 5
+   </div>
+   <div class="slotBox">
+    date: wednesday at 6
+ </div>
+  </div>
+
+
 </body>
 
 </html>
