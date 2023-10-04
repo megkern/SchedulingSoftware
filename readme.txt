@@ -1,32 +1,32 @@
-
-install git
+--------------------------------------------------------------
+## Day 1
+--------------------------------------------------------------
+-install git
 https://github.com/git-for-windows/git/releases/download/v2.42.0.windows.2/Git-2.42.0.2-64-bit.exe
 objects.githubusercontent.com
 
-install vscode
+-install vscode
 https://code.visualstudio.com/
 
-then git clone this repo onto your computer using github desktop
+-then git clone this repo onto your computer using github desktop
 
-open git bash window
+-open git bash window
 
 $ cd C/Users/megan/Desktop/GitOut
-
 $ ls
-
 $ code SchedulingSoftware (it should open the repo in vscode)
 
-## when you only use HTML and Javascript
+### when you only use HTML and Javascript
+-open index.html in your web browser by double clicking it
+-update the words in the index.html and
+
+$ git add *
+$ git commit -m "changing words"
+$ git push
+
+
 --------------------------------------------------------------
-open index.html in your web browser by double clicking it
-
-update the words in the index.html and
-
-git add *
-git commit -m "changing words"
-git push
-
-## When you use HTML, Javascript, AND PHP
+## Day 2 When you use HTML, Javascript, AND PHP
 -------------------------------------------------------------
 -Install xampp and setup phpMyAdmin
 -cd C:/xampp/htdocs
