@@ -2,10 +2,10 @@
   include 'connect/connect.php';
 
   // get some data from the database
-  $database_result = $mysqli->query("SELECT display_name FROM user");
+  $database_result = $mysqli->query("SELECT display_name FROM user ORDER BY display_name DESC");
   while ($row = $database_result->fetch_row()) {
     $display_name = $row[0];
-    echo $display_name;
+    echo "displayName: ".$display_name."</br>";
   }
   $database_result->free_result();
 
