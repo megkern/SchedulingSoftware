@@ -1,7 +1,7 @@
 /* ************************ CREATE ***************************** */
 CREATE TABLE user (
     user_id int(11) NOT NULL UNIQUE AUTO_INCREMENT, 
-    display_name varchar(100) NOT NULL UNIQUE, /* 24 character limit */
+    display_name varchar(100) NOT NULL, /* 24 character limit */
     PRIMARY KEY (user_id) 
 );
 
