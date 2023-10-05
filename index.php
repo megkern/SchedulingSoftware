@@ -71,7 +71,13 @@
   include 'connect.php';
 
   // get some data from the database
-  
+  $database_result = $mysqli->query("SELECT display_name FROM user");
+  while ($row = $$database_result->fetch_row()) {
+    $display_name = $row[0];
+    echo $display_name;
+  }
+  $database_result->free_result();
+
   include 'disconnect.php';
   ?>
 
