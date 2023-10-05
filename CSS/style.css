@@ -1,12 +1,10 @@
 /*"style" tag, this is where each tag, class, and ID get their styles defined*/
 html {
-  height: 100%;
+  
 }
 
 body {
   /*style for the "body" tag*/
-  display: flex;
-  height: 100%;
   background-color: black;
   color: white;
 }
