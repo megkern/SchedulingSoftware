@@ -1,0 +1,33 @@
+/*"style" tag, this is where each tag, class, and ID get their styles defined*/
+html {
+  height: 100%;
+}
+
+body {
+  /*style for the "body" tag*/
+  display: flex;
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+
+.meetingBox {
+  /*".meetingBox" is a class that defines the style anytime anything uses the meetingBox class*/
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  /*border: 5px solid red;*/
+}
+
+.meetingTitle {
+  /*".meetingTitle h1" applies these styles to everything inside of the "meetingTitle" class that is a "h1" tag*/
+  color: purple;
+}
+
+.slotBox {
+  /*"body.slotBox" is a class*/
+  height: 100px;
+  width: 100px;
+  border: 5px solid green;
+  display: inline-block;
+}
