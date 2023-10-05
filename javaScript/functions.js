@@ -1,3 +1,15 @@
+function addUser(){
+  var el = document.getElementById('user_input');
+  alert(el.value);
+}
+
+
+
+
+
+
+
+
 function clickAlert(clickbox_el) {
   // alert("Hello"); /*"alert" is a javascript function that pops up a window with text in it*/
   //var el = document.getElementById("specialID"); // declare a variable called el, "getElementById" is a function that selects the element within the webpage (document) that has the special id
