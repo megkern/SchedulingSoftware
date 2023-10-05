@@ -1,11 +1,21 @@
 function addUser(){
   var el = document.getElementById('user_input');
-  alert(el.value);
+  var name = el.value;
+
+  $.ajax({
+    type: 'POST',
+    data: { name },
+    url: './playDate/jsPOST/add_user.php',  // <=== CALL THE PHP FUNCTION HERE.
+    success: function (data) {
+      alert(data);  // <=== VALUE RETURNED FROM FUNCTION.
+      location.reload();
+    },
+    error: function (xhr) {
+      alert("js error, add user failed in add_user.php");
+    }
+  });
+
 }
-
-
-
-
 
 
 
