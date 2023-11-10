@@ -2,4 +2,6 @@
 include 'navbar.php'; 
 ?>
 
-button goes here
+<button class="CreateMeetingButton">
+    Create a Meeting
+</button>
