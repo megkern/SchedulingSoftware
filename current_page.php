@@ -6,13 +6,16 @@ if (isset($_GET['current_page'])) {
 }
 
 switch ($current_page) {
-    case 'create_meeting_page':
-        include 'create_meeting.php';
-        break;
     case 'dashboard_page':
         include 'dashboard.php';
         break;
-    case 'landing_;page';
+    case 'create_meeting_page':
+        include 'create_meeting.php';
+        break;
+    case 'my_meeting_page';
+        include 'my_meeting.php';
+        break;
+    case 'landing_page';
     default:
         include 'landing.php';
 }
