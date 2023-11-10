@@ -35,3 +35,8 @@ function clickAlert(clickbox_el) {
 
   clickbox_el.style.backgroundColor = defaultColor; //Change it!
 }
+
+function OpenMeetingWindow() {
+alert("Open Meeting Window");
+
+}
