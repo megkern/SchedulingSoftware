@@ -38,5 +38,5 @@ function clickAlert(clickbox_el) {
 
 function OpenMeetingWindow() {
 alert("Open Meeting Window");
-
+window.location.href = 'index.php?current_page=create_meeting_page';
 }
