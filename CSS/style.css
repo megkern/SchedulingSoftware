@@ -7,15 +7,15 @@ body {
   /*style for the "body" tag*/
   background-color: black;
   color: white;
-  margin:0;
+  margin: 0;
 }
 
-.mainPageArea{
-  position:absolute;
-  top:15%;
-  height:85%;
-  width:100%;
-  background-color:lightgreen;
+.currentPageArea {
+  position: absolute;
+  top: 15%;
+  height: 85%;
+  width: 100%;
+  background-color: lightgreen;
 }
 
 .meetingBox {
@@ -39,18 +39,20 @@ body {
   display: inline-block;
 }
 
-.navbar {
-  width:100%;
-  height:15%;
-  position:fixed;
-  background-color:lightblue;
+.navBar {
+  width: 100%;
+  height: 15%;
+  position: fixed;
+  background-color: lightblue;
 }
 
 .CreateMeetingButton {
-width:auto;
-height:auto;
-background-color:red;
-color: white;
-font-size: 12px;
-padding: 5px;
+  width: auto;
+  height: auto;
+  background-color: white;
+  border-color: whitesmoke;
+  color: blueviolet;
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 10px;
 }
