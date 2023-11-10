@@ -1,5 +1,5 @@
 <!--Dashboard ("sign in", has sidebar with meetings you are managing, outcomes and stats)-->
-<h1>Dashboard page</h1>
+<h1>Dashboard Page</h1>
 <!-- Navigation via a javascript function (button) -->
 <div class="CreateMeetingButton" onclick="OpenMeetingWindow();">
     Create a Meeting 1
