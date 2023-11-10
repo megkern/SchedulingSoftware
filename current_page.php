@@ -1,7 +1,17 @@
-<div class="mainPageArea">
+<?php
+$current_page = "dashboard_page";
 
-    <button class="CreateMeetingButton" onclick="OpenMeetingWindow();">
-        Create a Meeting
-    </button>
+if (isset($_GET['current_page'])) {
+    $current_page = $_GET['current_page'];
+}
 
-</div>
+switch ($current_page) {
+    case 'create_meeting_page':
+        include 'create_meeting.php';
+        break;
+    case 'dashboard_page':
+    default:
+        include 'dashboard.php';
+}
+
+?>
