@@ -1,4 +1,4 @@
-Dashboard page
+<h1>Dashboard page</h1>
 <!-- Navigation via a javascript function (button) -->
 <div class="CreateMeetingButton" onclick="OpenMeetingWindow();">
     Create a Meeting 1
